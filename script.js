@@ -1,5 +1,5 @@
 // ===== DISCORD LINKS =====
-const DISCORD_LINK = 'https://discord.com/invite/deaP8xPBcN'; // Ganti dengan link Discord yang sebenarnya
+const DISCORD_LINK = 'https://discord.gg/8q6uBAGZjb'; // Ganti dengan link Discord yang sebenarnya
 
 // ===== NAVBAR SCROLL =====
 const navbar = document.getElementById('navbar');
