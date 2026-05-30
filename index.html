@@ -53,6 +53,14 @@
         <div class="hero-bg">
             <div class="hero-glow hero-glow-left"></div>
             <div class="hero-glow hero-glow-right"></div>
+            <!-- Floating particles -->
+            <div class="particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
         </div>
         <div class="hero-content">
             <h1 class="hero-title">Welcome to <span class="text-red">HX SERVICE</span></h1>
@@ -78,15 +86,15 @@
         <h2 class="section-title">Our Journey</h2>
         <div class="stats-grid">
             <div class="stat-card" data-count="100" data-suffix="%">
-                <span class="stat-number">0%</span>
+                <span class="stat-number">100%</span>
                 <span class="stat-label">Customer Satisfaction</span>
             </div>
             <div class="stat-card" data-count="10000" data-suffix="+">
-                <span class="stat-number">0+</span>
+                <span class="stat-number">1000+</span>
                 <span class="stat-label">Completed Orders</span>
             </div>
             <div class="stat-card" data-count="100" data-suffix="%">
-                <span class="stat-number">0%</span>
+                <span class="stat-number">100%</span>
                 <span class="stat-label">Instant Delivery</span>
             </div>
         </div>
@@ -186,7 +194,7 @@
                     </ul>
                 </div>
                 <button class="btn btn-outline feature-btn" data-modal="modal-external"
-                    id="btnExternalPenjelasan">PENJELASAN EXSTERNAL</button>
+                    id="btnExternalPenjelasan">PENJELASAN EXTERNAL</button>
             </div>
 
             
@@ -327,6 +335,7 @@
     <!-- FAQ -->
     <section class="faq" id="faq">
         <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Got questions? We've got answers! Check out our most commonly asked questions below.</p>
         <div class="faq-container">
             <div class="faq-item">
                 <button class="faq-question" id="faq1">
@@ -575,6 +584,12 @@
     </div>
 
     <script src="script.js"></script>
+    
+    <!-- PARTICLE EFFECT -->
+    <canvas id="particleCanvas"></canvas>
+    
+    <!-- CURSOR FOLLOWER -->
+    <div class="cursor-follower" id="cursorFollower"></div>
 </body>
 
 </html>
